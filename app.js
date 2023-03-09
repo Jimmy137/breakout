@@ -4,7 +4,7 @@ const boardkWidth = 600
 const boardkHeight = 300
 const ballDaiameter = 20
 let ballSpeed = 1
-const milliseconds = 50
+const milliseconds = 10
 
 class Block {
     constructor(x,y){
