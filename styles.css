@@ -1,0 +1,66 @@
+#container {
+    display: flex;
+}
+.grid {
+    margin: 0 auto;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    border: 1px solid black;
+    
+}
+
+.block{
+    width: 100px;
+    height: 20px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
+.stick {
+    width: 150px;
+    height: 20px;
+    background-color: rgb(197, 0, 122);
+    position: absolute;
+}
+.ball{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: tomato;
+    position: absolute;
+}
+.pause{
+    width: 50px;
+    height: 50px;
+    background-image: url('pause.png');
+    cursor: pointer;
+    background-size: cover;
+    margin: 0 50px;
+}
+.resume{
+    width: 50px;
+    height: 50px;
+    background-image: url('resume.png');
+    cursor: pointer;
+    background-size: cover;
+    margin: 0 50px;
+}
+.lives {
+    width: 162px;
+    height: 162px;
+    display: flex;
+    gap: 4px;
+
+}
+.heart{
+    width: 50px;
+    height: 50px;
+    background-image: url('heart.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
